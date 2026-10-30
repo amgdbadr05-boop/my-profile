@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Amgad Badr Ebrahim Mohammed — Software Engineer from Aden, Yemen." />
+    <meta name="theme-color" content="#080d1b" />
+    <title>Amgad Badr | Software Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="ambient ambient-one"></div>
+
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+
+      <nav class="nav container" aria-label="Main navigation">
+
+        <a class="brand" href="#home" aria-label="Amgad home"><span class="brand-mark">A</span><span>AMGAD<span class="brand-dot">.</span></span></a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#skills" data-i18n="navSkills">Skills</a>
+          <a href="#education" data-i18n="navEducation">Education</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="icon-button language-button" id="languageToggle" type="button" aria-label="Switch language">العربية</button>
+          <button class="icon-button theme-button" id="themeToggle" type="button" aria-label="Switch color theme"><span id="themeIcon">☼</span></button>
+          <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+        </div>
+
+      </nav>
+
+    </header>
+
+
+
+    <main>
+
+      <section class="hero container" id="home">
+
+        <div class="hero-copy reveal">
+
+          <div class="eyebrow"><span class="status-dot"></span><span data-i18n="available">CURIOUS MIND. CREATIVE BUILDER.</span></div>
+
+          <p class="hero-intro" data-i18n="hello">Hello, I'm</p>
+
+          <h1>Amgad Badr<br><span class="gradient-text">Ebrahim Mohammed</span></h1>
+
+          <h2 data-i18n="role">Software Engineer</h2>
+
+          <p class="hero-description" data-i18n="heroDescription">I explore technology and build practical digital solutions through code, curiosity, and creative problem-solving.</p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#contact" data-i18n="contactMe">Contact me <span>↗</span></a>
+            <a class="button button-ghost" href="#about" data-i18n="discover">Discover more <span>↓</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌖</span><span data-i18n="location">Aden, Yemen</span></span>
+            <span><span class="meta-icon">✦</span><span data-i18n="field">Software Engineering</span></span>
+          </div>
+
+        </div>
+
+        <div class="hero-visual reveal">
+
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+
+          <div class="photo-halo">
+
+            <div class="photo-frame">
+
+              <img id="profilePhoto" src="/images/profile.jpeg" alt="Portrait of Amgad Badr Ebrahim Mohammed" />
+              <div class="photo-fallback" id="photoFallback">AB</div>
+
+            </div>
+
+          </div>
+
+          <div class="float-card float-card-top"><span class="float-icon">⌘</span><span data-i18n="creativeMind">Creative mind</span></div>
+
+          <div class="float-card float-card-bottom"><span class="float-icon blue-icon">{"</>"}</span><span data-i18n="buildingIdeas">Building ideas</span></div>
+
+          <div class="hero-cross cross-one">✳</div><div class="hero-cross cross-two">✦</div>
+
+        </div>
+
+        <a class="scroll-cue" href="#about"><span></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></a>
+
+      </section>
+
+      <section class="section container" id="about">
+
+        <div class="section-heading reveal"><p class="section-kicker" data-i18n="whoIAm">WHO I AM</p><h2 data-i18n="aboutTitle">A little about <span class="gradient-text">me</span></h2></div>
+
+        <div class="about-card reveal">
+
+          <div class="about-symbol">✧</div>
+
+          <div>
+            <h3 data-i18n="aboutHeading">Technology enthusiast. Problem solver. Lifelong learner.</h3>
+            <p data-i18n="aboutText1">I am a Software Engineer with an interest in technology, software development, and medical equipment systems. I enjoy learning new technologies, solving technical problems, and developing practical solutions that make a difference.</p>
+            <p data-i18n="aboutText2">My interests include web development, programming, networking, and medical technology. I am always looking for opportunities to improve my technical skills, work on meaningful projects, and expand my knowledge.</p>
+            <p data-i18n="aboutText3">My goal is to combine technical knowledge, creativity, and problem-solving skills to build reliable and useful solutions.</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="section container" id="skills">
+
+        <div class="section-heading reveal"><p class="section-kicker" data-i18n="whatIUse">WHAT I WORK WITH</p><h2 data-i18n="skillsTitle">Technical <span class="gradient-text">skills</span></h2><p class="section-subtitle" data-i18n="skillsIntro">Technologies and tools I am learning and using to bring ideas to life.</p></div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><div class="skill-icon">🌐</div><h3 data-i18n="webTitle">Web development</h3><p>HTML · CSS · JavaScript</p></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><div class="skill-icon">⚙️</div><h3 data-i18n="backendTitle">Backend development</h3><p>Node.js · Express.js</p></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><div class="skill-icon">⚛️</div><h3 data-i18n="frontendTitle">Frontend frameworks</h3><p>React · Tailwind CSS</p></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><div class="skill-icon">🐍</div><h3 data-i18n="pythonTitle">Python development</h3><p>Python · Django</p></article>
+        </div>
+
+      </section>
+
+      <section class="section container" id="education">
+
+        <div class="section-heading reveal"><p class="section-kicker" data-i18n="learningPath">LEARNING PATH</p><h2 data-i18n="educationTitle">Education & <span class="gradient-text">growth</span></h2></div>
+
+        <div class="education-card reveal"><div class="education-icon">🎓</div><div><p class="section-kicker" data-i18n="university">UNIVERSITY</p><h3>Nusa Putra University</h3><p data-i18n="educationNote">Building knowledge and developing a foundation in software engineering.</p></div><span class="education-arrow">↗</span></div>
+
+      </section>
+
+      <section class="section container contact-section" id="contact">
+
+        <div class="contact-panel reveal">
+
+          <div class="contact-glow"></div>
+
+          <p class="section-kicker" data-i18n="getInTouch">GET IN TOUCH</p>
+
+          <h2 data-i18n="contactTitle">Have an idea? <span class="gradient-text">Let's connect.</span></h2>
+
+          <p data-i18n="contactDescription">I'm always interested in learning, exchanging ideas, and exploring meaningful opportunities.</p>
+
+          <a class="button button-primary" href="mailto:amgdbadr05@gmail.com" data-i18n="sendEmail">Send me an email <span>↗</span></a>
+
+          <div class="social-links">
+
+            <a href="https://github.com/amgdbadr05-boop" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/amgad-badr-6918b1405/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+            <a href="mailto:amgdbadr05@gmail.com">Email <span>↗</span></a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">A</span><span>AMGAD<span class="brand-dot">.</span></span></a><p data-i18n="footerText">Designed & built with curiosity.</p><span>© <span id="year"></span> Amgad Badr</span></footer>
+    
+  </body>
+  
+</html>
