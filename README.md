@@ -25,3 +25,4 @@ The page currently shows an "AB" fallback until you add the photo.
 
 The theme and language choices are saved in the browser using localStorage.
 # my-profile
+# my-profile
